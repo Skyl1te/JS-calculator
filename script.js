@@ -1,13 +1,13 @@
 alert('Hello');
 alert('This is my calculator on JavaScript!');
 
-var currentValue = "0"; 
-var savedValue = "0"; 
-var signMinus = false; 
-var currentOperation = null; 
-var resetOnNumberPressed = false; 
+let currentValue = "0"; 
+let savedValue = "0"; 
+let signMinus = false; 
+let currentOperation = null; 
+let resetOnNumberPressed = false; 
  
-var highlightId = null; 
+let highlightId = null; 
  
 function display() { 
     document.getElementById("display").innerHTML = signMinus ? "-" + currentValue : currentValue;
@@ -101,3 +101,11 @@ function resetHighlight() {
     if (highlightId != null)
         document.getElementById(highlightId).style.backgroundColor = "";
 }
+
+alert('');
+alert('');
+alert('');
+alert('');
+alert('');
+alert('');
+alert('');
