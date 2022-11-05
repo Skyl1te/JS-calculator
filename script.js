@@ -104,7 +104,5 @@ function resetHighlight() {
 
 alert('');
 alert('');
-alert('');
-alert('');
-alert('');
+
 
