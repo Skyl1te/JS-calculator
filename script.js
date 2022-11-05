@@ -1,3 +1,6 @@
+alert('Hello');
+alert('This is my calculator on JavaScript!');
+
 var currentValue = "0"; 
 var savedValue = "0"; 
 var signMinus = false; 
