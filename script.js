@@ -102,7 +102,6 @@ function resetHighlight() {
         document.getElementById(highlightId).style.backgroundColor = "";
 }
 
-alert('');
-alert('');
+
 
 
